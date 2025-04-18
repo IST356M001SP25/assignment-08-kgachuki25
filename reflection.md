@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Kiritu Gachuki
+Sudent Email:  kgachuki@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,10 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+For this assignment, I designed an ETL pipeline to take precleaned data and make dashboards with maps using
+streamlit, folium, and geopandas. This involves taking geocoded data and using its latitude and longitude data to plot
+the information on a map. The geopandas approach of making a geodataframe made this part much easier than expected, making
+setting up the dashboards not too difficult. Overall, the most trouble I had was with the etl pipeline, especially with the 
+top_locations_mappable() function. I had trouble filtering the columns, but I was able to set a breakpoint after merging the
+data to see the names of the columns, and saw the name of "amount" changed. Then, I was able to address that by renaming the 
+column. Besides that, I did not have many other issues.
